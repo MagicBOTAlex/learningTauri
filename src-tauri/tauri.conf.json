@@ -34,6 +34,6 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
-    "resources": [  "src-python/**/*"]
+    "resources": [  "../src-python/**/*"]
   }
 }
