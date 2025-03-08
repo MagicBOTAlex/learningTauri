@@ -26,9 +26,6 @@ importers:
       tailwindcss:
         specifier: ^4.0.12
         version: 4.0.12
-      tauri-plugin-python-api:
-        specifier: ^0.3.4
-        version: 0.3.4
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.8
@@ -750,9 +747,6 @@ packages:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
 
-  tauri-plugin-python-api@0.3.4:
-    resolution: {integrity: sha512-WRawN6X1H/ALAvbZlKgjUiyjrMTYYlZXEo6ngEcGPaKjTBR5cqBVZXCC2KT4OL90Z6+g2oEw6mqBpQPw5fwOKw==}
-
   totalist@3.0.1:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
@@ -1358,10 +1352,6 @@ snapshots:
   tailwindcss@4.0.12: {}
 
   tapable@2.2.1: {}
-
-  tauri-plugin-python-api@0.3.4:
-    dependencies:
-      '@tauri-apps/api': 2.3.0
 
   totalist@3.0.1: {}
 

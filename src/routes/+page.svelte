@@ -4,6 +4,8 @@
     async function testClick() {
         if (thatbutton) {
             thatbutton.textContent = await callFunction("greet_python", ["from js!!!"]);
+            let idk: any = await callFunction("get_list_of_system_cameras", []);
+            console.log(idk);
         }
     }
 </script>
